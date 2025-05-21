@@ -1,11 +1,16 @@
 <component name="MainScene" extends="Scene">
     <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+    <interface>
+        <field id="inputMessage" type="node" alwaysNotify="true" onChange="onInputMessage" />
+    </interface>
     <children>
         <Video
             id="video"
             width="1280"
             height="720"
             translation="[0,0]"
+            visible="true"
+            enableUI="false"
         />
     </children>
 </component>
