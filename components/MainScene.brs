@@ -20,7 +20,7 @@ sub SetupVideoContent()
     videoContent = CreateObject("roSGNode", "ContentNode")
     videoContent.streamFormat = "hls"
     videoContent.url = "https://cdn.mycloudstream.io/hls/live/broadcast/viducc7f/index.m3u8"
-    videoContent.title = "Test Stream"
+    videoContent.title = "MediaCP Example"
     
     if m.video <> invalid then
         m.video.content = videoContent

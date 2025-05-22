@@ -11,7 +11,7 @@ splash_screen_fhd=pkg:/images/splash_fhd.jpg
 splash_screen_hd=pkg:/images/splash_hd.jpg
 splash_screen_sd=pkg:/images/splash_sd.jpg
 
-# Features
+# Deep Linking Support (Required for certification)
 supports_input_launch=1
 input_support=1
 
@@ -19,3 +19,5 @@ input_support=1
 description=A channel that streams live media content.
 provider_name=MediaCP
 
+# Additional certification requirements
+supports_video_playback=1
